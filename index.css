@@ -1,0 +1,239 @@
+body{
+	letter-spacing: 1px;
+}
+#navlink1{
+	margin-right: 25px;
+}
+#navlink1:hover{
+	margin-right: 25px;
+	background-color: lightgrey;
+	color: darkblue;
+}
+.sec1{
+    background-color: #002E47;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 13px;
+}
+.nbtn{
+    background-color: white;
+    color: #1B7DA9;
+    border: #1B7DA9 solid 1px;
+}
+.nbtn:hover{
+    background-color: #1B7DA9;
+    color: white;
+}
+.nlink{
+
+}
+.para{
+	color: #84ACC0;
+	font-size: 20px;
+	letter-spacing: 1px;
+	margin-top: 20px;
+}
+.list {
+	display: inline;
+	padding: 10px;
+	padding-right: 0px;
+	font-size: 17px;
+}
+#link1{
+	color: white;
+	text-decoration: none;
+	padding-bottom: 15px;
+	border-bottom: #68BED2 solid;
+	border-width: 4px;
+}
+.link2{
+	color: #84ACC0;
+	text-decoration: none;
+	padding-bottom: 15px;
+}
+.link2:hover{
+border-bottom: #68BED2 solid;
+	border-width: 4px;
+	color: #84ACC0;
+}
+#filter{
+	width: 130px;
+	padding: 5px;
+	color: grey;
+}
+.span {
+    content: "\2661";
+}
+.divlink{
+	color: #1C6FD1;
+	text-decoration: none;
+}
+.divlink:hover{
+	text-decoration: underline;
+}
+.divbtn{
+	background-color: #FF6200;
+	color: white;
+	border-radius: 50px;
+	float: right;
+	padding: 10px;
+	font-size: 20px;
+	width: 225px;
+	border: none;
+}
+.but{
+	background-color: white;
+	border : none;
+	width: 100px;
+	border-radius: 50px;
+	font-size: 18px;
+	letter-spacing: 1px;
+	color: #1C6FD1;
+	margin-top: 20px;
+}
+.but:hover{
+	background-color: lightblue;
+	width: 100px;
+	border-radius: 50px;
+}
+/* Style The Dropdown Button */
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+#tab{
+	background-color: #1C6FD1;
+	padding: 10px;
+	color: white;
+	cursor: pointer;
+}
+.tabl{
+	background-color: white;
+	padding: 10px;
+	border-bottom: lightblue solid 1px;
+	cursor: pointer;
+}
+#tabbtn{
+	width: 90%;
+	border-radius :50px;
+	background-color: #A3B9C3;
+	color: white;
+	border :none;
+	padding: 10px;
+}
+.divlink1{
+	color: #1C6FD1;
+	text-decoration: none;
+	font-size: 17px;
+}
+.divlink1:hover{
+	text-decoration: underline;
+}
+#bbtn{
+	border-radius: 50px;
+	background-color: #1C6FD1;
+	color: white;
+	width: 55%;
+	padding: 10px;
+	border:none;
+}
+.sec4para{
+	font-size: 12px;
+	padding-top: 15px;
+}
+.fheading{
+	font-size: 16px;
+	border-bottom: lightblue solid 1px;
+	width: 95%;
+	padding: 10px;
+	margin-bottom: 1px;
+}
+.fpara{
+	font-size: 15px;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+.sc{
+	border : lightblue solid 1px;
+	width: 220px;
+	padding : 5px;
+	font-size: 13px;
+}
+.sc:hover{
+	border : blue solid 1px;
+	color: lightblue;
+	width: 220px;
+	padding : 5px;
+	font-size: 13px;
+}
+.fimg{
+	background-color: #002E47;
+	width: 50px;
+	height: 50px;
+	padding: 10px;
+	margin-top: 20px;
+}
+.fimg:hover{
+	background-color: lightblue;
+	width: 50px;
+	height: 50px;
+	padding: 10px;
+	margin-top: 20px;
+}
+#myBtn {
+	display: none;
+	position: fixed;
+	bottom: 30px;
+	right: 10px;
+	z-index: 99;
+	font-size: 16px;
+	border: none;
+	outline: none;
+	background-color: #A3B9C3;
+	color: white;
+	cursor: pointer;
+	padding: 10px;
+	border-radius: 50px;
+	width: 180px;
+  }
